@@ -1,0 +1,731 @@
+{
+  "run_id": "f86e977d",
+  "base": "https://d1-replica-bench.<subdomain>.workers.dev",
+  "regions": [
+    "wnam",
+    "weur",
+    "eeur",
+    "apac",
+    "apac-ne",
+    "apac-se",
+    "oc",
+    "sam",
+    "afr",
+    "me"
+  ],
+  "n_per_region": 10,
+  "by_region": {
+    "wnam": {
+      "served_region": "WNAM",
+      "served_primary": false,
+      "n": 10,
+      "replica_trials": 10,
+      "floor_s": 0.17,
+      "min": 0.17,
+      "median": 0.181,
+      "p90": 0.194,
+      "max": 0.202
+    },
+    "weur": {
+      "served_region": "WEUR",
+      "served_primary": false,
+      "n": 10,
+      "replica_trials": 10,
+      "floor_s": 0.225,
+      "min": 0.225,
+      "median": 0.242,
+      "p90": 0.254,
+      "max": 0.268
+    },
+    "eeur": {
+      "served_region": "EEUR",
+      "served_primary": false,
+      "n": 10,
+      "replica_trials": 10,
+      "floor_s": 0.222,
+      "min": 0.222,
+      "median": 0.233,
+      "p90": 0.241,
+      "max": 0.259
+    },
+    "apac": {
+      "served_region": "APAC",
+      "served_primary": false,
+      "n": 10,
+      "replica_trials": 10,
+      "floor_s": 0.354,
+      "min": 0.354,
+      "median": 0.376,
+      "p90": 0.386,
+      "max": 0.423
+    },
+    "apac-ne": {
+      "served_region": "APAC",
+      "served_primary": false,
+      "n": 10,
+      "replica_trials": 10,
+      "floor_s": 0.286,
+      "min": 0.286,
+      "median": 0.297,
+      "p90": 0.307,
+      "max": 0.308
+    },
+    "apac-se": {
+      "served_region": "APAC",
+      "served_primary": false,
+      "n": 10,
+      "replica_trials": 10,
+      "floor_s": 0.311,
+      "min": 0.311,
+      "median": 0.322,
+      "p90": 0.335,
+      "max": 0.342
+    },
+    "oc": {
+      "served_region": "OC",
+      "served_primary": false,
+      "n": 10,
+      "replica_trials": 10,
+      "floor_s": 0.312,
+      "min": 0.312,
+      "median": 0.326,
+      "p90": 0.329,
+      "max": 0.342
+    },
+    "sam": {
+      "served_region": "ENAM",
+      "served_primary": false,
+      "n": 10,
+      "replica_trials": 10,
+      "floor_s": 0.12,
+      "min": 0.12,
+      "median": 0.129,
+      "p90": 0.147,
+      "max": 0.148
+    },
+    "afr": {
+      "served_region": "WEUR",
+      "served_primary": false,
+      "n": 10,
+      "replica_trials": 10,
+      "floor_s": 0.222,
+      "min": 0.222,
+      "median": 0.243,
+      "p90": 0.256,
+      "max": 0.264
+    },
+    "me": {
+      "served_region": "EEUR",
+      "served_primary": false,
+      "n": 10,
+      "replica_trials": 10,
+      "floor_s": 0.228,
+      "min": 0.228,
+      "median": 0.243,
+      "p90": 0.267,
+      "max": 0.272
+    }
+  },
+  "trials": [
+    {
+      "region": "wnam",
+      "lag_s": 0.16955140000209212,
+      "first_poll_s": 0.16955140000209212,
+      "replica_seen": true
+    },
+    {
+      "region": "wnam",
+      "lag_s": 0.20204210001975298,
+      "first_poll_s": 0.20204210001975298,
+      "replica_seen": true
+    },
+    {
+      "region": "wnam",
+      "lag_s": 0.19440229993779212,
+      "first_poll_s": 0.19440229993779212,
+      "replica_seen": true
+    },
+    {
+      "region": "wnam",
+      "lag_s": 0.17444350000005215,
+      "first_poll_s": 0.17444350000005215,
+      "replica_seen": true
+    },
+    {
+      "region": "wnam",
+      "lag_s": 0.1724332000594586,
+      "first_poll_s": 0.1724332000594586,
+      "replica_seen": true
+    },
+    {
+      "region": "wnam",
+      "lag_s": 0.18764549994375557,
+      "first_poll_s": 0.18764549994375557,
+      "replica_seen": true
+    },
+    {
+      "region": "wnam",
+      "lag_s": 0.18724400002975017,
+      "first_poll_s": 0.18724400002975017,
+      "replica_seen": true
+    },
+    {
+      "region": "wnam",
+      "lag_s": 0.17075360007584095,
+      "first_poll_s": 0.17075360007584095,
+      "replica_seen": true
+    },
+    {
+      "region": "wnam",
+      "lag_s": 0.18108720006421208,
+      "first_poll_s": 0.18108720006421208,
+      "replica_seen": true
+    },
+    {
+      "region": "wnam",
+      "lag_s": 0.18000309995841235,
+      "first_poll_s": 0.18000309995841235,
+      "replica_seen": true
+    },
+    {
+      "region": "weur",
+      "lag_s": 0.25409140007104725,
+      "first_poll_s": 0.25409140007104725,
+      "replica_seen": true
+    },
+    {
+      "region": "weur",
+      "lag_s": 0.23439540003892034,
+      "first_poll_s": 0.23439540003892034,
+      "replica_seen": true
+    },
+    {
+      "region": "weur",
+      "lag_s": 0.23484610009472817,
+      "first_poll_s": 0.23484610009472817,
+      "replica_seen": true
+    },
+    {
+      "region": "weur",
+      "lag_s": 0.22493719996418804,
+      "first_poll_s": 0.22493719996418804,
+      "replica_seen": true
+    },
+    {
+      "region": "weur",
+      "lag_s": 0.26799570000730455,
+      "first_poll_s": 0.26799570000730455,
+      "replica_seen": true
+    },
+    {
+      "region": "weur",
+      "lag_s": 0.2506590000120923,
+      "first_poll_s": 0.2506590000120923,
+      "replica_seen": true
+    },
+    {
+      "region": "weur",
+      "lag_s": 0.24152609996963292,
+      "first_poll_s": 0.24152609996963292,
+      "replica_seen": true
+    },
+    {
+      "region": "weur",
+      "lag_s": 0.24166810000315309,
+      "first_poll_s": 0.24166810000315309,
+      "replica_seen": true
+    },
+    {
+      "region": "weur",
+      "lag_s": 0.24353770003654063,
+      "first_poll_s": 0.24353770003654063,
+      "replica_seen": true
+    },
+    {
+      "region": "weur",
+      "lag_s": 0.24154449999332428,
+      "first_poll_s": 0.24154449999332428,
+      "replica_seen": true
+    },
+    {
+      "region": "eeur",
+      "lag_s": 0.2328593999845907,
+      "first_poll_s": 0.2328593999845907,
+      "replica_seen": true
+    },
+    {
+      "region": "eeur",
+      "lag_s": 0.23170260002370924,
+      "first_poll_s": 0.23170260002370924,
+      "replica_seen": true
+    },
+    {
+      "region": "eeur",
+      "lag_s": 0.2387008999940008,
+      "first_poll_s": 0.2387008999940008,
+      "replica_seen": true
+    },
+    {
+      "region": "eeur",
+      "lag_s": 0.2236261999933049,
+      "first_poll_s": 0.2236261999933049,
+      "replica_seen": true
+    },
+    {
+      "region": "eeur",
+      "lag_s": 0.23372499994002283,
+      "first_poll_s": 0.23372499994002283,
+      "replica_seen": true
+    },
+    {
+      "region": "eeur",
+      "lag_s": 0.22194969991687685,
+      "first_poll_s": 0.22194969991687685,
+      "replica_seen": true
+    },
+    {
+      "region": "eeur",
+      "lag_s": 0.23238259996287525,
+      "first_poll_s": 0.23238259996287525,
+      "replica_seen": true
+    },
+    {
+      "region": "eeur",
+      "lag_s": 0.24053900002036244,
+      "first_poll_s": 0.24053900002036244,
+      "replica_seen": true
+    },
+    {
+      "region": "eeur",
+      "lag_s": 0.2590471999719739,
+      "first_poll_s": 0.2590471999719739,
+      "replica_seen": true
+    },
+    {
+      "region": "eeur",
+      "lag_s": 0.2254133999813348,
+      "first_poll_s": 0.2254133999813348,
+      "replica_seen": true
+    },
+    {
+      "region": "apac",
+      "lag_s": 0.3857894000830129,
+      "first_poll_s": 0.3857894000830129,
+      "replica_seen": true
+    },
+    {
+      "region": "apac",
+      "lag_s": 0.4229973000474274,
+      "first_poll_s": 0.4229973000474274,
+      "replica_seen": true
+    },
+    {
+      "region": "apac",
+      "lag_s": 0.37404979998245835,
+      "first_poll_s": 0.37404979998245835,
+      "replica_seen": true
+    },
+    {
+      "region": "apac",
+      "lag_s": 0.36588179995305836,
+      "first_poll_s": 0.36588179995305836,
+      "replica_seen": true
+    },
+    {
+      "region": "apac",
+      "lag_s": 0.3535718999337405,
+      "first_poll_s": 0.3535718999337405,
+      "replica_seen": true
+    },
+    {
+      "region": "apac",
+      "lag_s": 0.3773236999986693,
+      "first_poll_s": 0.3773236999986693,
+      "replica_seen": true
+    },
+    {
+      "region": "apac",
+      "lag_s": 0.3791648999322206,
+      "first_poll_s": 0.3791648999322206,
+      "replica_seen": true
+    },
+    {
+      "region": "apac",
+      "lag_s": 0.38443720003124326,
+      "first_poll_s": 0.38443720003124326,
+      "replica_seen": true
+    },
+    {
+      "region": "apac",
+      "lag_s": 0.36982450005598366,
+      "first_poll_s": 0.36982450005598366,
+      "replica_seen": true
+    },
+    {
+      "region": "apac",
+      "lag_s": 0.36563130002468824,
+      "first_poll_s": 0.36563130002468824,
+      "replica_seen": true
+    },
+    {
+      "region": "apac-ne",
+      "lag_s": 0.3020716999890283,
+      "first_poll_s": 0.3020716999890283,
+      "replica_seen": true
+    },
+    {
+      "region": "apac-ne",
+      "lag_s": 0.2946131000062451,
+      "first_poll_s": 0.2946131000062451,
+      "replica_seen": true
+    },
+    {
+      "region": "apac-ne",
+      "lag_s": 0.30662849999498576,
+      "first_poll_s": 0.30662849999498576,
+      "replica_seen": true
+    },
+    {
+      "region": "apac-ne",
+      "lag_s": 0.29339950007852167,
+      "first_poll_s": 0.29339950007852167,
+      "replica_seen": true
+    },
+    {
+      "region": "apac-ne",
+      "lag_s": 0.28573460003826767,
+      "first_poll_s": 0.28573460003826767,
+      "replica_seen": true
+    },
+    {
+      "region": "apac-ne",
+      "lag_s": 0.30596539995167404,
+      "first_poll_s": 0.30596539995167404,
+      "replica_seen": true
+    },
+    {
+      "region": "apac-ne",
+      "lag_s": 0.3081376999616623,
+      "first_poll_s": 0.3081376999616623,
+      "replica_seen": true
+    },
+    {
+      "region": "apac-ne",
+      "lag_s": 0.30027750006411225,
+      "first_poll_s": 0.30027750006411225,
+      "replica_seen": true
+    },
+    {
+      "region": "apac-ne",
+      "lag_s": 0.28794830001425,
+      "first_poll_s": 0.28794830001425,
+      "replica_seen": true
+    },
+    {
+      "region": "apac-ne",
+      "lag_s": 0.2864751999732107,
+      "first_poll_s": 0.2864751999732107,
+      "replica_seen": true
+    },
+    {
+      "region": "apac-se",
+      "lag_s": 0.311253699939698,
+      "first_poll_s": 0.311253699939698,
+      "replica_seen": true
+    },
+    {
+      "region": "apac-se",
+      "lag_s": 0.32259420002810657,
+      "first_poll_s": 0.32259420002810657,
+      "replica_seen": true
+    },
+    {
+      "region": "apac-se",
+      "lag_s": 0.3120491000590846,
+      "first_poll_s": 0.3120491000590846,
+      "replica_seen": true
+    },
+    {
+      "region": "apac-se",
+      "lag_s": 0.32622869999613613,
+      "first_poll_s": 0.32622869999613613,
+      "replica_seen": true
+    },
+    {
+      "region": "apac-se",
+      "lag_s": 0.33541840000543743,
+      "first_poll_s": 0.33541840000543743,
+      "replica_seen": true
+    },
+    {
+      "region": "apac-se",
+      "lag_s": 0.3420127999270335,
+      "first_poll_s": 0.3420127999270335,
+      "replica_seen": true
+    },
+    {
+      "region": "apac-se",
+      "lag_s": 0.32566199998836964,
+      "first_poll_s": 0.32566199998836964,
+      "replica_seen": true
+    },
+    {
+      "region": "apac-se",
+      "lag_s": 0.3113720000255853,
+      "first_poll_s": 0.3113720000255853,
+      "replica_seen": true
+    },
+    {
+      "region": "apac-se",
+      "lag_s": 0.32159549999050796,
+      "first_poll_s": 0.32159549999050796,
+      "replica_seen": true
+    },
+    {
+      "region": "apac-se",
+      "lag_s": 0.32070639997255057,
+      "first_poll_s": 0.32070639997255057,
+      "replica_seen": true
+    },
+    {
+      "region": "oc",
+      "lag_s": 0.3424574000528082,
+      "first_poll_s": 0.3424574000528082,
+      "replica_seen": true
+    },
+    {
+      "region": "oc",
+      "lag_s": 0.328767400002107,
+      "first_poll_s": 0.328767400002107,
+      "replica_seen": true
+    },
+    {
+      "region": "oc",
+      "lag_s": 0.320511500001885,
+      "first_poll_s": 0.320511500001885,
+      "replica_seen": true
+    },
+    {
+      "region": "oc",
+      "lag_s": 0.3275866999756545,
+      "first_poll_s": 0.3275866999756545,
+      "replica_seen": true
+    },
+    {
+      "region": "oc",
+      "lag_s": 0.32814359990879893,
+      "first_poll_s": 0.32814359990879893,
+      "replica_seen": true
+    },
+    {
+      "region": "oc",
+      "lag_s": 0.3167900999542326,
+      "first_poll_s": 0.3167900999542326,
+      "replica_seen": true
+    },
+    {
+      "region": "oc",
+      "lag_s": 0.32550650008488446,
+      "first_poll_s": 0.32550650008488446,
+      "replica_seen": true
+    },
+    {
+      "region": "oc",
+      "lag_s": 0.3121790000004694,
+      "first_poll_s": 0.3121790000004694,
+      "replica_seen": true
+    },
+    {
+      "region": "oc",
+      "lag_s": 0.3256624999921769,
+      "first_poll_s": 0.3256624999921769,
+      "replica_seen": true
+    },
+    {
+      "region": "oc",
+      "lag_s": 0.3202873000409454,
+      "first_poll_s": 0.3202873000409454,
+      "replica_seen": true
+    },
+    {
+      "region": "sam",
+      "lag_s": 0.13369659997988492,
+      "first_poll_s": 0.13369659997988492,
+      "replica_seen": true
+    },
+    {
+      "region": "sam",
+      "lag_s": 0.1206826000707224,
+      "first_poll_s": 0.1206826000707224,
+      "replica_seen": true
+    },
+    {
+      "region": "sam",
+      "lag_s": 0.12672890000976622,
+      "first_poll_s": 0.12672890000976622,
+      "replica_seen": true
+    },
+    {
+      "region": "sam",
+      "lag_s": 0.1259125000797212,
+      "first_poll_s": 0.1259125000797212,
+      "replica_seen": true
+    },
+    {
+      "region": "sam",
+      "lag_s": 0.14744600001722574,
+      "first_poll_s": 0.14744600001722574,
+      "replica_seen": true
+    },
+    {
+      "region": "sam",
+      "lag_s": 0.14823740010615438,
+      "first_poll_s": 0.14823740010615438,
+      "replica_seen": true
+    },
+    {
+      "region": "sam",
+      "lag_s": 0.12017840007320046,
+      "first_poll_s": 0.12017840007320046,
+      "replica_seen": true
+    },
+    {
+      "region": "sam",
+      "lag_s": 0.1406182999489829,
+      "first_poll_s": 0.1406182999489829,
+      "replica_seen": true
+    },
+    {
+      "region": "sam",
+      "lag_s": 0.1200207999208942,
+      "first_poll_s": 0.1200207999208942,
+      "replica_seen": true
+    },
+    {
+      "region": "sam",
+      "lag_s": 0.1318328999914229,
+      "first_poll_s": 0.1318328999914229,
+      "replica_seen": true
+    },
+    {
+      "region": "afr",
+      "lag_s": 0.22167040000203997,
+      "first_poll_s": 0.22167040000203997,
+      "replica_seen": true
+    },
+    {
+      "region": "afr",
+      "lag_s": 0.2433740000706166,
+      "first_poll_s": 0.2433740000706166,
+      "replica_seen": true
+    },
+    {
+      "region": "afr",
+      "lag_s": 0.25648950005415827,
+      "first_poll_s": 0.25648950005415827,
+      "replica_seen": true
+    },
+    {
+      "region": "afr",
+      "lag_s": 0.22650699992664158,
+      "first_poll_s": 0.22650699992664158,
+      "replica_seen": true
+    },
+    {
+      "region": "afr",
+      "lag_s": 0.26446500001475215,
+      "first_poll_s": 0.26446500001475215,
+      "replica_seen": true
+    },
+    {
+      "region": "afr",
+      "lag_s": 0.2539729999843985,
+      "first_poll_s": 0.2539729999843985,
+      "replica_seen": true
+    },
+    {
+      "region": "afr",
+      "lag_s": 0.24273910000920296,
+      "first_poll_s": 0.24273910000920296,
+      "replica_seen": true
+    },
+    {
+      "region": "afr",
+      "lag_s": 0.25388699991162866,
+      "first_poll_s": 0.25388699991162866,
+      "replica_seen": true
+    },
+    {
+      "region": "afr",
+      "lag_s": 0.23359369998797774,
+      "first_poll_s": 0.23359369998797774,
+      "replica_seen": true
+    },
+    {
+      "region": "afr",
+      "lag_s": 0.23735549999400973,
+      "first_poll_s": 0.23735549999400973,
+      "replica_seen": true
+    },
+    {
+      "region": "me",
+      "lag_s": 0.23093289998359978,
+      "first_poll_s": 0.23093289998359978,
+      "replica_seen": true
+    },
+    {
+      "region": "me",
+      "lag_s": 0.25249310000799596,
+      "first_poll_s": 0.25249310000799596,
+      "replica_seen": true
+    },
+    {
+      "region": "me",
+      "lag_s": 0.24100130004808307,
+      "first_poll_s": 0.24100130004808307,
+      "replica_seen": true
+    },
+    {
+      "region": "me",
+      "lag_s": 0.23730719997547567,
+      "first_poll_s": 0.23730719997547567,
+      "replica_seen": true
+    },
+    {
+      "region": "me",
+      "lag_s": 0.27200530003756285,
+      "first_poll_s": 0.27200530003756285,
+      "replica_seen": true
+    },
+    {
+      "region": "me",
+      "lag_s": 0.23041239997837692,
+      "first_poll_s": 0.23041239997837692,
+      "replica_seen": true
+    },
+    {
+      "region": "me",
+      "lag_s": 0.24425549991428852,
+      "first_poll_s": 0.24425549991428852,
+      "replica_seen": true
+    },
+    {
+      "region": "me",
+      "lag_s": 0.25502550008241087,
+      "first_poll_s": 0.25502550008241087,
+      "replica_seen": true
+    },
+    {
+      "region": "me",
+      "lag_s": 0.26720090000890195,
+      "first_poll_s": 0.26720090000890195,
+      "replica_seen": true
+    },
+    {
+      "region": "me",
+      "lag_s": 0.22842840000521392,
+      "first_poll_s": 0.22842840000521392,
+      "replica_seen": true
+    }
+  ]
+}

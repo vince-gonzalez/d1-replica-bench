@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software or its findings, please cite them."
+title: "D1-Replica-Bench: measured read-replica lag and traffic-provisioning for Cloudflare D1"
+authors:
+  - family-names: Gonzalez
+    given-names: Vince
+    orcid: https://orcid.org/0009-0005-3640-014X
+    email: vincegonzalez@me.com
+version: 0.1.0
+date-released: 2026-10-28
+repository-code: https://github.com/vince-gonzalez/d1-replica-bench
+license: MIT

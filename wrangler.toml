@@ -1,0 +1,25 @@
+# D1-REPLICA-BENCH v0.2.0 — Cloudflare Workers + D1 + Durable Objects config
+# F-Keys LLC | www.f-keys.com
+#
+# Placeholder database id/name on purpose (safe to publish). Deploy from a
+# throwaway copy with the real id injected; never commit a real id. Read
+# replication must be enabled on the database (dashboard Settings "Enable Read
+# Replication", or PUT read_replication mode=auto). Account resolves from
+# wrangler OAuth. Set the gate secret after deploy: wrangler secret put BENCH_TOKEN
+
+name = "d1-replica-bench"
+main = "worker.js"
+compatibility_date = "2026-10-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "REPLACE_WITH_DB_NAME"
+database_id = "REPLACE_WITH_DB_ID"
+
+[[durable_objects.bindings]]
+name = "READER"
+class_name = "D1RegionReader"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["D1RegionReader"]
